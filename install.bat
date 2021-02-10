@@ -1,0 +1,1 @@
+xcopy files "%programfiles%\Contoso\FavGame" /s /i /Y
