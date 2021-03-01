@@ -39,7 +39,7 @@ Complete the remaining steps.
 
 When the batch file ran, the **MSIX Packaging Tool**, it captured the file copy operation and packaged the files in the VFS folder of the MSIX file. Here is a screenshot of the MSIX created by the Packaging Tool: (temporary rename of msix to zip for File Explorer view)
 
-![VFS in MSIX Package](.\VFSFolder.png) 
+![VFS in MSIX Package](./VFSFolder.png) 
 
 Additionally, the Packaging Tool will create a template file which you can modify for subsequent games and only modify the title and assets specific to that game. Using the template you can convert the app using the command line instead of the Packaging Tool GUI.  [Create a package using the command line interface - MSIX | Microsoft Docs](https://docs.microsoft.com/en-us/windows/msix/packaging-tool/package-conversion-command-line)
 
@@ -47,7 +47,7 @@ Regarding the package information fields, here’s a screenshot of the identity 
 
 Application ID(s): (Navigate to [Dashboard > App Name > Product Management > Product Identity]) For example:
 
-![Identity Info - Partner Center](.\Identity.png) 
+![Identity Info - Partner Center](./Identity.png) 
 
 Here are the corresponding values in appxmanifest.xml:
 
