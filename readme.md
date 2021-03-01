@@ -1,6 +1,6 @@
 # XCOPY Install and MSIX Packaging Tool
 
-The [MSIX Packaging Tool](https://www.microsoft.com/en-us/p/msix-packaging-tool/9n5lw3jbcxkf?activetab=pivot:overviewtab) can’t directly package a directory and it’s subfolders, however you can create a batch file that copies the files and serves as the installer for the ```MSIX Packaging Tool```.
+The [MSIX Packaging Tool](https://www.microsoft.com/en-us/p/msix-packaging-tool/9n5lw3jbcxkf?activetab=pivot:overviewtab) can’t directly package a directory and it’s subfolders, however you can create a batch file that copies the files and serves as the installer for the ```MSIX Packaging Tool```. In addition to creating the MSIX package, the Packaging tool will create a template file which you can use to do these steps is an automated way by running the MSIX Package tool CLI passing the template file as an argument. (To create a template, the MSIX package tool requires an installer. The 'installer' in the context of this post is ```install.bat```.) More information here: <a href='https://docs.microsoft.com/en-us/windows/msix/packaging-tool/package-conversion-command-line'>Create a package using the command line interface - MSIX | Microsoft Docs</a>
 
 ```
 root
